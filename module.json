@@ -1,12 +1,7 @@
 {
   "name": "PhpvmsRegistrySmokeTest",
-  "alias": "phpvms/smoke-test",
-  "description": "Disposable smoke-test addon used to verify the addon-registry pipeline. Not a real plugin.",
-  "keywords": ["smoke-test", "registry"],
-  "active": true,
-  "order": 100,
-  "providers": ["Modules\\PhpvmsRegistrySmokeTest\\Providers\\PhpvmsRegistrySmokeTestServiceProvider"],
-  "aliases": {},
-  "files": [],
-  "requires": []
+  "alias": "smoketest",
+  "registry_id": "phpvms/smoke-test",
+  "description": "Smoke-test addon used to verify the addon-registry pipeline. Not a real plugin.",
+  "providers": ["Providers\\PhpvmsRegistrySmokeTestServiceProvider"],
 }
